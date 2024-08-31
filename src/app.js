@@ -26,7 +26,7 @@ export const randomOrder = () => {
   let i;
 
   do {
-    i = Math.floor(Math.random() * 10);
+    i = Math.floor(Math.random() * 70);
     if (!arrayOfIndex.includes(i)) {
       arrayOfIndex.push(i);
     }
