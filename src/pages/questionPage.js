@@ -66,7 +66,7 @@ export const initQuestionPage = () => {
   finishBtn.style.display = 'none';
   nextMissedBtn.style.display = 'none';
 
-  if (quizData.currentQuestionIndex === quizData.questions.length - 1) {
+  if (quizData.currentQuestionIndex === 9) {
     nextBtn.style.display = 'none';
     finishBtn.style.display = 'inline-block';
   }
